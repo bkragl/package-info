@@ -22,7 +22,9 @@ public class Main {
 			br = new BufferedReader(new FileReader(file));
 			String line = null;
 			while ((line = br.readLine()) != null) {
-				packages.add(line);
+				if (!line.isEmpty()) {
+					packages.add(line);
+				}
 			}
 
 			new PackagesFrame(packages);
