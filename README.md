@@ -4,6 +4,8 @@ Package Info
 Browse through a list of Ubuntu/Debian packages and view information like
 package description, dependencies, reverse dependencies, etc.
 
+![Screenshot](/img/screenshot.png?raw=true)
+
 Compiling
 ---------
 
